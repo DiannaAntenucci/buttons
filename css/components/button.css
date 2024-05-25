@@ -1,0 +1,50 @@
+/* Your button CSS file */
+.btn-medium {
+  background-color: white;
+  color: lightgray;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  border: 1px solid lightgray;
+  font-size: small;
+  transition: all 60ms ease-in-out;
+}
+
+.btn-medium:hover {
+  color: grey;
+  border: 1px solid grey;
+}
+
+.btn-treehouse {
+  background-color: rgb(41 206 116);
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-weight: 800;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-treehouse:hover {
+  background-color: rgb(39, 181, 39);
+}
+
+.btn-yours {
+  background-color: fuchsia;
+  color: white;
+  border-color: #FF76CE;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 24px;
+  border: 1px solid lightgray;
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  transition: all 60ms ease-in-out;
+}
+
+.btn-yours:hover {
+  border: 3px solid rgb(199, 194, 194);
+  background-color: blueviolet;
+  animation-delay: inherit;
+}
